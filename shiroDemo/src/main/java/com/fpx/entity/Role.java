@@ -8,6 +8,16 @@ public class Role {
 	private int aviliable = 0;
 	
 	public Role() {}
+	
+	
+
+	public Role(String role, String description) {
+		super();
+		this.role = role;
+		this.description = description;
+	}
+
+
 
 	public Long getId() {
 		return id;
